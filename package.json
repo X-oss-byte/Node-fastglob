@@ -37,7 +37,7 @@
     "bencho": "^0.1.1",
     "eslint": "^8.46.0",
     "eslint-config-mrmlnc": "^4.0.1",
-    "execa": "^7.2.0",
+    "execa": "^8.0.0",
     "fast-glob": "^3.3.1",
     "fdir": "^6.0.1",
     "glob": "^10.3.3",
