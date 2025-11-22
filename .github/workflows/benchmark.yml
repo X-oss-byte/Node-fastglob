@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       - name: Setup environment
         uses: actions/setup-node@v3
         with:
@@ -51,7 +51,7 @@ jobs:
       BENCHMARK_OPTIONS: ${{ matrix.benchmark_options }}
     steps:
       - name: Setup repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       - name: Setup environment
         uses: actions/setup-node@v3
         with:
